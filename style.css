@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E7E7E7;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 86px;
+    margin-top: 136px;
+}
+
+form {
+    margin: auto;
+    width: 725px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 86px;
+}
+
+input {
+    height: 40px;    
+    padding: 8px 16px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #008C06;
+    border: 1px solid #008C06;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 0 16px;
+}
+button:hover {
+    border: 1px solid #006605;
+    background-color: #006605;
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto 80px auto;
+    width: 678px;
+    background-color: #FFFFFF;
+    border-radius: 10.2px;
+    padding: 32px;
+}
+
+#titulo-tabela{
+    font-size: 20.4px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    padding: 0 0 15px;
+    border-bottom: none;
+}
+
+#coluna th {
+    font-weight: 600;
+    color: #828282;
+    font-size: 20.4px;
+    padding: 15px 0;
+}
+
+.nome {
+    text-align: left;
+    font-size: 20.4px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.telefone {
+    text-align: end;
+}
+
+tbody th {
+    border-top: 2px solid #E0E0E0;
+}
